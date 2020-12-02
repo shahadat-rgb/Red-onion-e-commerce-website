@@ -1,0 +1,41 @@
+
+.PostContent .HeaderIcon {
+    padding: 13px 15px;
+    border-radius: 50%;
+    background: #F91944;
+    color: #ddd;
+}
+
+.PostContent h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.PostContent p {
+    color: #838383;
+}
+
+.PostContent button {
+    border: none;
+    background: transparent;
+    color: #6285f9;
+    font-weight: 700;
+}
+
+.PostContent button:focus {
+    outline: none;
+}
+
+.PostContent .btnIcon {
+    background: #20E374;
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.PostContent {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,75 @@
+.ProductSection {
+    margin-top: 30px;
+}
+.ProductTexts h2 {
+    color: #000;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 26px;
+}
+
+.ProductTexts p {
+    color: #808080;
+    font-size: 15px;
+    line-height: 1.8em;
+    margin-bottom: 20px;
+}
+
+.ProductPrice h4 {
+    font-size: 28px;
+    margin-right: 25px;
+}
+
+.ProductImage img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.ProductQuantity {
+    padding: 5px 0px;
+    border: 1px  solid #d0c0c0;
+    border-radius: 20px;
+}
+
+.ProductQuantity button {
+    padding: 0px 15px;
+    border: none;
+    background: transparent;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.ProductQuantity button:focus{
+    outline: none;
+}
+
+.CartBtn {
+    background-color: #F91944;
+    border: 1px solid #F91944;
+    color: #efefef;
+    margin-top: 20px;
+    padding: 8px 24px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.CartBtn:focus {
+    outline: none;
+}
+
+.CartBtn span {
+    margin: 0px 10px;
+}
+.simpleFoodImg img{
+    width: 80%;
+    margin-top: 40px;
+    border: 1px solid gray;
+    padding: 10px;
+    border: none;
+}
+.simpleFoodImg img:hover{
+    box-shadow: 5px 5px 30px gray;
+    border-radius: 5px;
+    transition: 1s all ease;
+}

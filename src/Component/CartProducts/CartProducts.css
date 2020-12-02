@@ -1,0 +1,50 @@
+.CartFoods {
+    background-color: #F5F5F5;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.CartImg img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.CartText {
+    margin-left: 5px;
+}
+
+.CartText h4 {
+    font-size: 15px;
+}
+
+.CartText h6 {
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+
+.CartText p {
+    color: #D2D2D2;
+}
+
+.RemoveCartBtn {
+    padding: 5px 0px;
+    border: 1px solid #d0c0c0;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+
+.RemoveCartBtn button {
+    padding: 0px 14px;
+    border: none;
+    background: transparent;
+    font-weight: bold;
+    margin-top: 0px;
+    font-size: 26px;
+}
+
+.RemoveCartBtn button:focus{
+    outline: none;
+}

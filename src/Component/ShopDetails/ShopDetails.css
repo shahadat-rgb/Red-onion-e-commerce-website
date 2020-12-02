@@ -1,0 +1,11 @@
+.ContentTop h2 {
+    font-weight: 400;
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.ContentTop p {
+    margin-top: 15px;
+    margin-bottom: 35px;
+    color: #838383;
+}
