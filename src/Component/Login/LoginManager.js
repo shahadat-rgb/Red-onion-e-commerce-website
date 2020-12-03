@@ -118,17 +118,3 @@ const verifyEmail= () =>{
         // An error happened.
       });
 }
-
-// Reset or forget password
-
-export const forgetPassword=email=>{
-        var auth = firebase.auth();
-
-      auth.sendPasswordResetEmail(email).then(function() {
-        // Email sent.
-        alert("success An reset password link has been sent to your email. Please Check.")
-      }).catch(function(error) {
-        // An error happened.
-        alert("sorry! this email is not valid.Please try again ")
-      });
-}

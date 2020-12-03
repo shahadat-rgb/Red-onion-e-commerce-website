@@ -1,53 +1,45 @@
-.inputs {
-  border: 1px solid gray;
-  /* min-height: 370px; */
-  height: auto;
-  width: 470px;
-  padding: 10px 20px;
-  
-}
-
-.forms {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.google, .facebook {
- /*  border: 1px solid black;
-  margin-bottom: 5px;
-  border-radius: 30px;
-  padding: 5px 0px;
-  cursor: pointer; */
-  
-background: #FFFFFF;
-border: 1px solid #C7C7C7;
-box-sizing: border-box;
-border-radius: 57px;
-padding: 5px 0px;
-width: 457px;
-cursor: pointer;
-margin-bottom: 5px;
-}
-.icon img {
-  width: 30px;
-  padding: 0px;
-}
-
-.submit {
-  background-image: linear-gradient(to bottom, #275a53 0%, #275a53 100%);
-  color: #fff;
+#loginAria input{
+  width: 100%;
+  height: 50px;
+  color: black;
+  padding: 0px 10px;
+  background: #F5F5F5;
   border: none;
-  border-radius: 5px;
-  padding: 10px 25px;
-  cursor: pointer;
-  margin: 0px 15px;
+  border-radius: 8px;
+  margin-top: 10px;
+  outline: none;
+}
+button[type=submit]{ 
+ background: #F91944;
+  color: #f3f3f3;
+  margin-top: 10px;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border-radius: 15px;
+}
+.Google {
+  display: block;
+  margin: 25px auto;
+  width: 90%;
+  border: 1px solid #4082EE;
+  background: #4082EE;
+  color: white;
+  height: 50px;
+  border-radius: 8px;
+  font-size: 22px;
 }
 
-.text-login-create {
-  font-family: Avenir;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
+ .Google img {
+  width: 42px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.Google:focus {
+  outline: none;
 }

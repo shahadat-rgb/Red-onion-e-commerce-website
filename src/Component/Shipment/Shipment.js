@@ -61,28 +61,6 @@ const Shipment = () => {
         setOrderBtn(true);
     }
 
-    // For sending all order info to database
-    // const handlePlaceOrder = (paymentInfo) => {
-    //     const email =loggedInUser.email;
-    //     const shippingData = shippingInfo;
-    //     const cart = getDatabaseCart();
-    //     const payment = paymentInfo;
-    //     const orderDetails = { email, shippingData, cart, payment }
-
-    //     fetch('https://fathomless-ridge-69474.herokuapp.com/placeOrder', {
-    //         method: 'POST',
-    //         body: JSON.stringify(orderDetails),
-    //         headers: {
-    //             "Content-type": "application/json; charset=UTF-8"
-    //         }
-    //     })
-    //         .then(response => response.json())
-    //         .then(data => {
-    //             setOrderId(data._id);
-    //             processOrder();
-    //         })
-    // }
-
     // Handle Active Button
     const handleActiveOrder = () => {
         setShowPayment(true);
